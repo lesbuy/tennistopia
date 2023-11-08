@@ -16,13 +16,13 @@
 		{
 			"path": "pages/tabBar/component/component",
 			"style": {
-				"navigationBarTitleText": "内置组件",
+				"navigationBarTitleText": "Players",
 				"app-plus": {
 					"bounce": "vertical",
 					"titleNView": {
 						"buttons": [{
-							"text": "\ue534",
-							"fontSrc": "/static/uni.ttf",
+							"text": "\ue606",
+							"fontSrc": "/static/fonts/iconfont.ttf",
 							"fontSize": "22px",
 							"color": "#FFFFFF"
 						}]
@@ -337,22 +337,22 @@
 			}
 		}
 		// #endif
-	,{
-    "path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
-    "style": {
-        "app-plus": {
-            "animationDuration": 200,
-            "animationType": "fade-in",
-            "background": "transparent",
-            "backgroundColorTop": "transparent",
-            "popGesture": "none",
-            "scrollIndicator": false,
-            "titleNView": false
-        },
-        "disableScroll": true
-    }
-}
-],
+		,{
+			"path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+			"style": {
+				"app-plus": {
+					"animationDuration": 200,
+					"animationType": "fade-in",
+					"background": "transparent",
+					"backgroundColorTop": "transparent",
+					"popGesture": "none",
+					"scrollIndicator": false,
+					"titleNView": false
+				},
+				"disableScroll": true
+			}
+		}
+	],
 	"subPackages": [{
 			"root": "pages/API",
 			"pages": [{
@@ -1354,7 +1354,7 @@
 				"pagePath": "pages/tabBar/component/component",
 				"iconPath": "static/component.png",
 				"selectedIconPath": "static/componentHL.png",
-				"text": "内置组件"
+				"text": "Players"
 			},
 			{
 				"pagePath": "pages/tabBar/API/API",

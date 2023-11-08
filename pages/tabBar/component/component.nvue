@@ -45,7 +45,7 @@
 			return {
 				list: [{
 						id: 'view',
-						name: '视图容器',
+						name: 'View容器',
 						open: false,
 						pages: [
 							'view',
