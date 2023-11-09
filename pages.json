@@ -14,9 +14,28 @@
 	"pages": [
 		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path" : "pages/subView/players",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Players",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue606",
+							"fontSrc": "/static/fonts/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				},
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
 			"path": "pages/tabBar/component/component",
 			"style": {
-				"navigationBarTitleText": "Players",
+				"navigationBarTitleText": "组件",
 				"app-plus": {
 					"bounce": "vertical",
 					"titleNView": {
@@ -350,6 +369,14 @@
 					"titleNView": false
 				},
 				"disableScroll": true
+			}
+		},
+		{
+			"path" : "pages/subPopup/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "LOGIN",
+				"enablePullDownRefresh" : false
 			}
 		}
 	],
@@ -1350,11 +1377,21 @@
 		"selectedColor": "#007AFF",
 		"borderStyle": "black",
 		"backgroundColor": "#F8F8F8",
-		"list": [{
-				"pagePath": "pages/tabBar/component/component",
-				"iconPath": "static/component.png",
-				"selectedIconPath": "static/componentHL.png",
+		"iconfontSrc": "/static/fonts/iconfont.ttf",
+		"list": [
+			{
+				"pagePath": "pages/subView/players",
+				"iconfont": {
+					"text": "\ue606"
+				},
 				"text": "Players"
+			},
+			{
+				"pagePath": "pages/subPopup/login",
+				"iconfont": {
+					"text": "\ue689"
+				},
+				"text": "Score"
 			},
 			{
 				"pagePath": "pages/tabBar/API/API",
