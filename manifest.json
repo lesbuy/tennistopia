@@ -75,7 +75,18 @@
                 "speech" : {
                     "ifly" : {}
                 },
-                "ad" : {}
+                "ad" : {},
+                "oauth" : {
+                    "sina" : {
+                        "appkey" : "157841823",
+                        "redirect_uri" : "https://api.live-tennis.cn/login/weibo/callback",
+                        "UniversalLinks" : ""
+                    },
+                    "facebook" : {
+                        "appid" : "1931636373733391",
+                        "client_token" : "7b2cb1bbb7c15f016e8a26dd0808f796"
+                    }
+                }
             },
             "orientation" : [ "portrait-primary" ],
             "icons" : {
